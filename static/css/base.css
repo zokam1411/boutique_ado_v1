@@ -10,7 +10,7 @@ body {
     font-family: 'Lato';
 }
 
-/* from Bul ma */
+/* from Bulma */
 .icon {
     align-items: center;
     display: inline-flex;
@@ -68,6 +68,11 @@ body {
 	position: fixed;
 	background: white;
 	z-index: -1;
+}
+
+a.category-badge > span.badge:hover {
+    background: #212529 !important;
+    color: #fff !important;
 }
 
 /* -------------------------------- Media Queries */
